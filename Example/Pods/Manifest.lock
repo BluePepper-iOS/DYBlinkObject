@@ -1,0 +1,16 @@
+PODS:
+  - DYBlinkObject (0.1.0)
+
+DEPENDENCIES:
+  - DYBlinkObject (from `../`)
+
+EXTERNAL SOURCES:
+  DYBlinkObject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DYBlinkObject: 56a3f8a3eb89a8f71591b51dc0ae8ffc3358ca63
+
+PODFILE CHECKSUM: bb23112ce6db528626aae76a0fd6ab3f29cd0a19
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module DYBlinkObject {
+  umbrella header "DYBlinkObject-umbrella.h"
+
+  export *
+  module * { export * }
+}

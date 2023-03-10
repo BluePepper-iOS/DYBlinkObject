@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DYBlinkObject'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DYBlinkObject.'
+  s.summary          = 'Swift library that creates animated objects that seem to flickering.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Swift library that creates animated objects that seem to flickering.'
 
   s.homepage         = 'https://github.com/doyeonjeong/DYBlinkObject'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +26,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/doyeonjeong/DYBlinkObject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.1'
 
   s.source_files = 'DYBlinkObject/Classes/**/*'
   

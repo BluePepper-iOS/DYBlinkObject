@@ -1,4 +1,4 @@
-
+#if os(iOS)
 import UIKit
 
 public class DYBlinkObject {
@@ -44,3 +44,4 @@ public class DYBlinkObject {
         }
     }
 }
+#endif

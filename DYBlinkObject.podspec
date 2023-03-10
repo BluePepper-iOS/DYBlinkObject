@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYBlinkObject'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Swift library that creates animated objects that seem to flickering.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'doyeonjeong' => 'debby_@kakao.com' }
-  s.source           = { :git => 'https://github.com/doyeonjeong/DYBlinkObject.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BluePepper-iOS/DYBlinkObject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'

@@ -10,8 +10,6 @@
 ## Description
 This is Swift library that creates animated objects that seem to flickering.
 
-
-
 ## Installation
 
 DYBlinkObject is available through [CocoaPods](https://cocoapods.org). To install
@@ -21,27 +19,38 @@ it, simply add the following line to your Podfile:
 pod 'DYBlinkObject'
 ```
 
+DYBlinkObject was deployed as Swift Package Manager. Package to install in a project. Add as a dependent item within the swift manifest.
+
+```swift
+let package = Package(
+    ...
+    dependencies: [
+        .package(url: "https://github.com/BluePepper-iOS/DYBlinkObject.git", from: "1.0.0")
+    ],
+    ...
+)
+```
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
-### 1. Import project
+1. Import project
+Then import the DYBlinkObject from thr location you want to use.
 ```swift
 import DYBlinkObject
 ```
 
-### 2. Instance
+2. Instance
 ```swift
 let blinkObject = DYBlinkObject()
 ```
 
-### 3. Make Object
+3. Make Object
 ```swift
 let firstObject = blinkObject.drawObject(width: 200, height: 200)
 ```
 
-### 4. Add Animation
+4. Add Animation
 ```swift
 blinkObject.addBlinkingAnimation(to: firstObject, withDuration: 2.0, delay: 0.0, minAlpha: 0.5)
 ```

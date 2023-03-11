@@ -12,7 +12,7 @@ public class DYBlinkObject {
      - width: The width of the view.
      - height: The height of the view.
      - radius: The corner radius of the view.
-     
+     - color: The color of the view.
      - Returns: A UIView object with the specified size, corner radius, and background color, and a flickering animation.
      */
     public func drawObject(width: CGFloat, height: CGFloat, radius: CGFloat = 20, color: UIColor = .white) -> UIView {

@@ -15,7 +15,7 @@ public class DYBlinkObject {
      - color: The color of the view.
      - Returns: A UIView object with the specified size, corner radius, and background color, and a flickering animation.
      */
-    public func drawObject(width: CGFloat, height: CGFloat, radius: CGFloat = 20, color: UIColor = .white) -> UIView {
+    public func draw(width: CGFloat, height: CGFloat, radius: CGFloat = 20, color: UIColor = .white) -> UIView {
         let object = UIView()
         object.translatesAutoresizingMaskIntoConstraints = false
         object.backgroundColor = color

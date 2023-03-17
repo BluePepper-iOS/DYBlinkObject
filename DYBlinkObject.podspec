@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = 'You can easily create a blinking object with only two methods.'
 
   s.homepage         = 'https://github.com/BluePepper-iOS/DYBlinkObject'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.cogitm/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'doyeonjeong' => 'debby_@kakao.com' }
   s.source           = { :git => 'https://github.com/BluePepper-iOS/DYBlinkObject.git', :tag => s.version.to_s }

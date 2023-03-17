@@ -59,13 +59,13 @@ blinkObject.addBlinkingAnimation(to: firstObject, withDuration: 2.0, delay: 0.0,
 
 ### Code Sample 1
 ```swift
-let firstObject = blinkObject.drawObject(width: 200, height: 200)
+let firstObject = blinkObject.draw(width: 200, height: 200)
 blinkObject.addBlinkingAnimation(to: firstObject, withDuration: 2.0, delay: 0.0, minAlpha: 0.5)
 ```
 
 ### Code Sample 2
 ```swift
-let secondObject = blinkObject.drawObject(width: 300, height: 40, radius: 10)
+let secondObject = blinkObject.draw(width: 300, height: 40, radius: 10)
 blinkObject.addBlinkingAnimation(to: secondObject, withDuration: 1.0, delay: 0.0, minAlpha: 0.2)
 ```
 
@@ -84,7 +84,7 @@ blinkObject.addBlinkingAnimation(to: secondObject, withDuration: 1.0, delay: 0.0
  
  - Returns: A UIView object with the specified size, corner radius, and background color, and a flickering animation.
  */
-public func drawObject(width: CGFloat, height: CGFloat, radius: CGFloat = 20, color: UIColor = .white) -> UIView {
+public func draw(width: CGFloat, height: CGFloat, radius: CGFloat = 20, color: UIColor = .white) -> UIView {
     let object = UIView()
     object.translatesAutoresizingMaskIntoConstraints = false
     object.backgroundColor = color
